@@ -1,0 +1,30 @@
+AnchorPane {
+    -fx-background-image: url('assets/DataViewer_NoInternet.png');
+    -fx-background-size: cover;
+}
+
+.window-control-bar {
+    -fx-padding: 2px;
+    -fx-background-color: #007234;
+}
+
+.window-control-bar Button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+
+}
+
+#minimizeButton:hover, #closeButton:hover {
+    -fx-background-color: #555;
+}
+
+#retryButton {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 32px;
+    -fx-cursor: hand;
+}

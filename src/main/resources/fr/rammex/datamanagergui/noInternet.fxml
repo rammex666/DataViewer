@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="fr.rammex.datamanagergui.Listener.NoInternetListener"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <HBox alignment="CENTER_RIGHT" spacing="5.0" styleClass="window-control-bar" AnchorPane.topAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <children>
+                <Button fx:id="minimizeButton" onAction="#onMinimizeButton" text="-" />
+                <Button fx:id="closeButton" onAction="#onCloseButton" text="X" />
+            </children>
+        </HBox>
+        <VBox alignment="CENTER" layoutX="123" layoutY="350.0" spacing="20.0">
+            <children>
+                <Button fx:id="retryButton" onAction="#onRetryButton" text="Retry" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -6,7 +6,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import java.net.URL?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="fr.rammex.datamanagergui.HelloController">
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="fr.rammex.datamanagergui.Listener.HomeController">
     <top>
         <BorderPane styleClass="header-section">
             <left>
@@ -64,6 +64,6 @@
         </HBox>
     </bottom>
     <stylesheets>
-        <URL value="@style.css" />
+        <URL value="@style/style.css" />
     </stylesheets>
 </BorderPane>

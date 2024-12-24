@@ -1,5 +1,6 @@
-package fr.rammex.datamanagergui;
+package fr.rammex.datamanagergui.Listener;
 
+import fr.rammex.datamanagergui.DataViewer;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -9,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloController {
+public class HomeController {
     @FXML
     private Label welcomeText;
 
@@ -20,8 +21,7 @@ public class HelloController {
     @FXML
     protected void onAccountHomeButtonClick() throws IOException {
         Stage stage = (Stage) account.getScene().getWindow();
-        System.out.println("Account button clicked!");
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("logged.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(DataViewer.class.getResource("logged.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         stage.setScene(scene);
     }
@@ -29,8 +29,7 @@ public class HelloController {
     @FXML
     protected void onAccountLoggedButtonClick() throws IOException {
         Stage stage = (Stage) account.getScene().getWindow();
-        System.out.println("Logged button clicked!");
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("home.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(DataViewer.class.getResource("home.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 720, 480);
         stage.setScene(scene);
     }

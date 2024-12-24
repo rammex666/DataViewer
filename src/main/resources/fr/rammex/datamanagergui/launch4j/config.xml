@@ -1,0 +1,24 @@
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>C:\Users\romai\Documents\GitHub\DataManagerGUI\out\artifacts\DataManagerGUI_jar\DataManagerGUI.jar</jar>
+    <outfile>Desktop\DataViewer.exe</outfile>
+    <errTitle></errTitle>
+    <cmdLine></cmdLine>
+    <chdir>.</chdir>
+    <priority>normal</priority>
+    <downloadUrl>http://java.com/download</downloadUrl>
+    <supportUrl></supportUrl>
+    <customProcName>false</customProcName>
+    <stayAlive>false</stayAlive>
+    <manifest></manifest>
+    <icon>C:\Users\romai\Documents\GitHub\DataManagerGUI\src\main\resources\fr\rammex\datamanagergui\assets\icon_dataviewer.ico</icon>
+    <jre>
+        <path>path/to/your/jre</path>
+        <bundledJre64Bit>false</bundledJre64Bit>
+        <minVersion>1.8.0</minVersion>
+        <maxVersion></maxVersion>
+        <jdkPreference>preferJre</jdkPreference>
+        <runtimeBits>64/32</runtimeBits>
+    </jre>
+</launch4jConfig>
